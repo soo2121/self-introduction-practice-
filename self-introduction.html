@@ -1,0 +1,56 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-wide,initial-scake=1.0">
+    <title>Document</title> 
+</head>
+
+<body>
+    <h1>自己紹介</h1>
+    <h2>プロフィール</h2>
+     <p>名前：田畑 壮志</p>
+     <p>年齢：25歳</p>
+     <p>出身地：滋賀県</p>
+     <P>趣味：旅行、古着</P>
+    <h2>好きなもの</h2>
+    <ul>
+     <li>から揚げ</li>
+     <li>寿司</li>
+     <li>肉</li>
+    </ul>
+    <h2>今年の目標</h2>
+    <ol>
+     <li>プログラミングスキルの習得</li>
+     <li>海外旅行</li>
+     <li>筋トレ</li>
+    </ol>
+    <h2>リンク</h2>
+     <a href="https://github.com/soo2121/my-first-git" target="_blank">GitHubのリンクへ</a>
+    <h2>学生時代の思い出</h2>
+     <img scr="C:\Users\blue1\OneDrive\デスクトップ\画像\Saved Pictures" alt="学生時代の思い出" width="400">
+    <h2>お問い合わせ</h2>
+    <form action="/submit" method="post">
+      <div>
+      <label for="contact-name">お名前:</label>
+      <input type="text" id="contact-name" name="name" required>
+      </div>
+      <div>
+      <label for="contact-category">お問い合わせ種別</label>
+      <select id="contact-category" name="category" >
+        <option value=""> --選択してください-- </option>
+        <option value="general">一般的な問い合わせ</option>
+        <option value="feedback">ご意見・ご要望</option>
+      </select>
+      </div>
+      <div>
+        <label for="contact-message">お問い合わせ内容</label>
+        <textarea id="contact-message" rows="5" required></textarea>
+      </div>
+      <div>
+      <button type="submit">送信する</button>
+      </div>
+    </form>
+</body>
+</html>
